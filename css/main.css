@@ -11,7 +11,7 @@ body {
   padding: 4rem 0.5rem;
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: white;
+  background-color: var(--Light-grayish-blue);
 }
 @media (min-width: 1200px) {
   body {
@@ -34,6 +34,8 @@ body {
   }
   main {
     max-height: 100vh;
+    max-width: 85%;
+    margin: 0 auto;
   }
   .cards {
     margin: 0 auto;
