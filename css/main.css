@@ -16,6 +16,7 @@ body {
 @media (min-width: 992px) {
   body {
     max-height: 100vh;
+    position: relative;
   }
 }
 .cards {
@@ -27,6 +28,15 @@ body {
 
 /* query for desktop */
 @media (min-width: 992px) {
+  main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
   .cards {
     margin: 0 auto;
     column-gap: 1.5rem;
